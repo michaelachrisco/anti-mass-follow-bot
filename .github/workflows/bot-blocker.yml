@@ -1,0 +1,27 @@
+name: Block GitHub Bots Daily
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # Runs every day at 2am UTC
+  workflow_dispatch:
+
+jobs:
+  run-bot-blocker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run script
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_USERNAME: your-github-username
+        run: python block_bots.py
