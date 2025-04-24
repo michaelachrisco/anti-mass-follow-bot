@@ -41,6 +41,17 @@ export GITHUB_USERNAME=your-username
 export GH_TOKEN=your-token
 python main.py
 ```
+### Example first run:
+```
+Scanning followers of @michaelachrisco...
+Found 182 followers.
+Neustradamus is a suspected bot. Blocking...
+Blocked Neustradamus
+...
+LinuxJS is a suspected bot. Blocking...
+Blocked LinuxJS
+```
+
 
 ---
 
