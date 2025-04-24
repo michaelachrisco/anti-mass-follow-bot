@@ -71,9 +71,3 @@ You can trigger the workflow manually via the GitHub Actions tab as well.
 
 ---
 
-## 🙏 Contributions
-Feel free to open issues or pull requests to improve bot detection logic or add features like:
-- Reporting bots to GitHub
-- Logging blocked users
-- Customizable threshold
-
