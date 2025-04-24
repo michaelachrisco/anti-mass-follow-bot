@@ -67,7 +67,7 @@ You can trigger the workflow manually via the GitHub Actions tab as well.
 ---
 
 ## 📜 License
-[MIT](LICENSE)
+[GPL3.0](https://opensource.org/license/gpl-3-0)
 
 ---
 
