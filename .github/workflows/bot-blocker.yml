@@ -23,5 +23,5 @@ jobs:
       - name: Run script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GITHUB_USERNAME: your-github-username
+          GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
         run: python block_bots.py
