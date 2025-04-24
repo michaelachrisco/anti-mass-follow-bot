@@ -71,3 +71,7 @@ You can trigger the workflow manually via the GitHub Actions tab as well.
 
 ---
 
+## Fork me!
+Feel free to fork! If you do, make sure you add in the token credentials detailed on #2 and you will have your very own script running at 2 AM blocking accounts with over 5000 followers.
+Enjoy!
+
