@@ -1,10 +1,10 @@
-# 🛡️ GitHub Bot Blocker
+# GitHub Bot Blocker
 
 A Python script to detect and block mass-following bot accounts from your GitHub profile. This script is designed to run daily via GitHub Actions.
 
 ---
 
-## 🚀 Features
+## Features
 - Scans your followers
 - Detects accounts following over a threshold (default: 5000)
 - Blocks suspected bots
@@ -12,7 +12,7 @@ A Python script to detect and block mass-following bot accounts from your GitHub
 
 ---
 
-## 🔧 Setup
+## Setup
 
 ### 1. Clone the Repo
 ```bash
@@ -33,7 +33,7 @@ cd block-github-bots
 
 ---
 
-## 🛠️ Running Manually
+## Running Manually
 
 You can also run the script locally:
 ```bash
@@ -55,7 +55,7 @@ Blocked LinuxJS
 
 ---
 
-## 🕒 Automation via GitHub Actions
+## Automation via GitHub Actions
 
 This project includes a workflow that runs daily at 2 AM UTC to:
 - Fetch followers
@@ -66,7 +66,7 @@ You can trigger the workflow manually via the GitHub Actions tab as well.
 
 ---
 
-## 📜 License
+## License
 [GPL3.0](https://opensource.org/license/gpl-3-0)
 
 ---
