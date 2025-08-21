@@ -28,7 +28,7 @@ def get_followers(username: str) -> List[str]:
     return followers
 
 
-def is_mass_follower(username: str, threshold: int = 5000) -> bool:
+def is_mass_follower(username: str, threshold: int = 4000) -> bool:
     url = f"{GITHUB_API_URL}/users/{username}"
     res = requests.get(url, headers=HEADERS)
     if res.status_code != 200:

@@ -6,7 +6,7 @@ A Python script to detect and block mass-following bot accounts from your GitHub
 
 ## Features
 - Scans your followers
-- Detects accounts following over a threshold (default: 5000)
+- Detects accounts following over a threshold (default: 4000)
 - Blocks suspected bots
 - Automates daily cleanup using GitHub Actions
 
