@@ -1,7 +1,7 @@
 # GitHub Bot Blocker
 
 A Python script to detect and block mass-following bot accounts from your GitHub profile. This script is designed to run daily via GitHub Actions.
-
+ 
 ---
 
 ## Features
