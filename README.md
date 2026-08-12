@@ -1,4 +1,5 @@
 # GitHub Bot Blocker
+<img width="351" height="104" alt="image" src="https://github.com/user-attachments/assets/f0bb86e0-ee02-433e-9168-0849a2fbc91d" />
 
 A Python script to detect and block mass-following bot accounts from your GitHub profile. This script is designed to run daily via GitHub Actions.
  
